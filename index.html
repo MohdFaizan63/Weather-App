@@ -12,20 +12,20 @@
         <div class="card">
             <div class="nav">
                 <input type="text" placeholder="Enter city name">
-                <button class="searc"><img src="stuff/search.png"></button>
+                <button class="searc"><img src="search.png"></button>
             </div>
             <div class="errormsg">
                 <h4>Sorry, city not found</h4>
             </div>
             <div class="forall">
             <div class="weather">
-                <img class="weather-icon" src="stuff/partly_cloudy.png" >
+                <img class="weather-icon" src="partly_cloudy.png" >
                 <h1 class="tempp">7°C</h1>
                 <h2 class="city">New York</h2>
             </div>
             <div class="details">
                 <div class="col1">
-                    <img src="stuff/drop_1715845.png" alt="">
+                    <img src="drop_1715845.png" alt="">
                     <h3 class="humid">
                         48%
                     </h3>
@@ -33,7 +33,7 @@
                     <p>Humidity</p>
                 </div>
                 <div class="col2">
-                    <img src="stuff/windy.png">
+                    <img src="windy.png">
                     <h3 class="windsp">10.23 Km/h
                     </h3>
                     <p >Wind Speed</p>
@@ -67,13 +67,13 @@ const data = await response.json();
     document.querySelector(".tempp").innerHTML = Math.round(data.main.temp) + "°C";
 
     if(data.weather[0].main == 'Clouds'){
-        weatherIcon.src = "stuff/cloudy.png"
+        weatherIcon.src = "cloudy.png"
     }
     else if(data.weather[0].main == 'Rain'){
-        weatherIcon.src = "stuff/heavy-rain.png"
+        weatherIcon.src = "heavy-rain.png"
     }
     else if(data.weather[0].main == 'Clear'){
-        weatherIcon.src = "stuff/sun.png"
+        weatherIcon.src = "sun.png"
     }
 
    /* document.querySelectorAll(".weather, .details").forEach((element) => {
