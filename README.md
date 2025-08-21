@@ -2,8 +2,8 @@
 
 link -https://mohdfaizan63.github.io/Weather-App/
 
-Weather App
-A responsive web application that allows users to check real-time weather data for any city. This app uses the OpenWeatherMap API to display weather details such as temperature, humidity, wind speed, and weather conditions in an easy-to-read format.
+Weather App 
+A responsive web application that allows users to check real-time weather data for any city. This app uses the OpenWeatherMap API to display weather details such as temperature, humidity, wind speed, and weather conditions in an easy-to-read in the format.
 
 Key Features
 City Search: Search for weather information by entering a city name.
